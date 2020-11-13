@@ -1,0 +1,146 @@
+
+#navDiv{
+    border: 1px solid black;
+    height: 38px;
+    border: hidden;
+    padding-left: 4px;
+}
+#navUL{
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 0px;
+    /* position: relative; */
+}
+#navUL li{
+    background-color: rgb(140, 140, 140);
+    padding: 10px 60px 10px 60px;
+    font-size: medium;
+    display: inline-block;  
+}
+#navUL li:hover{
+    background-color: burlywood;
+}
+#navUL li a{
+    color: white;
+    text-decoration: none;
+}
+/* #navUL >li{
+    display: inline-block;
+} */
+
+/* nav dropdown */
+#dropdownContent{
+    display: none;
+    position: absolute;
+    left: 12px;
+    top: 46px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#dropdownContent li{
+    display: block;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+#navUL li:hover #dropdownContent{
+    display: block;
+}
+
+
+#imgDiv2{
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 130px;
+    border: hidden;
+}
+#descriptionDiv{
+    border: 1px solid black;
+    width: 500px;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 55px;
+    font-size: 10px;
+    border: hidden;
+}
+#formDiv{
+    border: 1px solid black;
+    width: 400px;
+    height: 260px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 425px;
+    text-align: center;
+    border: hidden;
+}
+#gotoReviewDiv{
+    border: 1px solid black;
+    width: 152px;
+    height: 42px;
+    margin-left: 264px;
+    border: hidden;
+}
+#reviewBtn{
+    width: 150px;
+    height: 40px;
+}
+#personalInfoDiv{
+    border: 1px solid black;
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-top: 53px;
+    margin-left: 502px;
+    visibility: hidden;
+    border: hidden;
+}
+#editBuyBtnDiv{
+    border: 1px solid black;
+    width: 510px;
+    height: 50px;
+    float: left;
+    margin-left: 502px;
+    margin-top: 9px;
+    border: hidden;
+}
+#editBtn{
+    width: 100px;
+    height: 30px;
+    visibility: hidden;
+}
+#buyBtn{
+    width: 100px;
+    height: 40px;
+    float: right;
+    visibility: hidden;
+}
+#images2{
+    width: 500px;
+    height: 200px; 
+}
+#fName{
+    margin-left: 20px;
+}
+#lName{
+    margin-left: 22px;
+}
+#cc{
+    margin-left: 10px;
+}
+#ccExpDate{
+    margin-left: 32px;
+}
+#cvvDigit{
+    margin-left: 58px;
+}
+#amail{
+    margin-left: 51px;
+}
+#yourInfo{
+    text-align: center;
+}
+

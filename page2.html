@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Center</title>
+
+    <link rel="stylesheet" href="page2.css">
+</head>
+<body>
+    <div id="navDiv">
+        <ul id="navUL">
+            <li>
+                <a href="page1.html">Guitars</a>
+                <ul id="dropdownContent">
+                    <li><a href="#">Electric Guitars</a></li>
+                    <li><a href="#">Accoustic Guitars</a></li>
+                    <li><a href="#">Accoustic Electric Guitars</a></li>
+                    <li><a href="#">Classical Guitars</a></li>
+                </ul>   
+            </li>
+            <li><a href="#">Bass</a></li>
+            <li><a href="#">Drums</a></li>
+            <li><a href="#">Keyboards</a></li>
+            <li><a href="#">DJ & Lighting</a></li>
+            <li><a href="#">Used Gear</a></li>
+            <li><a href="#">Clearence</a></li>
+        </ul>
+    </div>
+
+
+    <div id="imgDiv2"><img src="" alt="guitarPic" id="images2"></div>
+    <div id="descriptionDiv">
+        Product description: <p id="desc1"></p>
+        Shipping details: <span id="ship1"></span>  <br>
+        Price: <span id="price1"></span> <br>
+        Stock availability: <span id="available1"></span> <br>
+        No of items: <span id="noItems1"></span> <br><br>
+        Customer reviews: <p id="custReview1"></p>
+    </div>
+
+    <div id="formDiv">
+        <form id="purchaseForm">
+            <b>Purchase Form</b> <br><br>
+            First Name: <input type="text" id="fName" onkeyup="checkFirst()"> <span id="fnError"></span> <br><br>
+            Last Name: <input type="text" id="lName" onkeyup="checkLast()"> <span id="lnError"></span>   <br><br>
+            Credit Card#: <input type="text" id="cc" onkeyup="checkCC()"> <span id="ccError"></span> <br><br>
+            Exp Date: <input type="date" id="ccExpDate"> <br><br>
+            CVV: <input type="text" id="cvvDigit" onkeyup="checkCVV()"> <span id="cvvError"></span><br><br>
+            Email: <input type="email" id="amail" onkeyup="checkEmail()"> <span id="emailError"></span><br><br>
+            <div id="gotoReviewDiv"><input type="button" onclick="displayData()" id="reviewBtn" value="Go to Review"></div>
+        </form>
+    </div>
+    <!-- <div id="gotoReviewDiv"><button id="reviewBtn">Go to Review</button></div> -->
+    <div id="personalInfoDiv">
+        <p id="yourInfo"><b>Review Info</b></p>
+        First name: <span id="fN"></span> <br><br>
+        Last Name: <span id="lN"></span> <br><br>
+        Credit Card#: <span id="cCard"></span> <br><br>
+        Exp Date: <span id="expD"></span> <br><br>
+        CVV: <span id="cDigit"></span> <br><br>
+        Email: <span id="mail"></span>
+
+    </div>
+    <div id="editBuyBtnDiv">
+        <button id="editBtn" onclick="populateBack()">Edit</button>
+        <button id="buyBtn" onclick="location='page3.html'">BUY</button>
+    </div>
+
+
+
+    <script src="page2.js"></script>
+
+</body>
+</html>

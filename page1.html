@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guitar Center</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    <div id="navDiv">
+        <ul id="navUL">
+            <li>
+                <a href="#">Guitars</a>
+                <ul id="dropdownContent">
+                    <li><a href="#">Electric Guitars</a></li>
+                    <li><a href="#">Accoustic Guitars</a></li>
+                    <li><a href="#">Accoustic Electric Guitars</a></li>
+                    <li><a href="#">Classical Guitars</a></li>
+                </ul>   
+            </li>
+            <li><a href="#">Bass</a></li>
+            <li><a href="#">Drums</a></li>
+            <li><a href="#">Keyboards</a></li>
+            <li><a href="#">DJ & Lighting</a></li>
+            <li><a href="#">Used Gear</a></li>
+            <li><a href="#">Clearence</a></li>
+        </ul>
+    </div>
+
+    <div id="imgDiv">
+        <img id="moinImg" src="guitarImages/main.jpg" alt="main">
+    </div>
+    <div id="nextPrevDiv">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </div>
+
+    <div id="pscDiv">
+        <button class="collapse" style="padding-right: 95px;">Product Info</button>
+        <div class="content"></div>
+
+        <button class="collapse" style="padding-right: 89px;">Shipping Info</button>
+        <div class="content"></div>
+
+        <button class="collapse" style="padding-right: 81px;">Cust. Reviews</button>
+        <div class="content"></div>
+    </div>
+
+    <div id="btnDiv">
+        <button id="btnBuy" onclick="location='page2.html'">BUY</button>
+    </div>
+    
+    <script src="page1.js"></script>
+
+</body>
+</html>

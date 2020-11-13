@@ -1,0 +1,131 @@
+body{
+    background-image: url("guitar.jpg");
+}
+
+/* navbar */
+
+#navDiv{
+    border: 1px solid black;
+    height: 38px;
+    border: hidden;
+    padding-left: 4px;
+}
+#navUL{
+    margin-top: 0px;
+    list-style-type: none;
+    padding-left: 0px;
+    font-size: 0px;
+    /* position: relative; */
+}
+#navUL li{
+    background-color: rgb(140, 140, 140);
+    padding: 10px 60px 10px 60px;
+    font-size: medium;
+    display: inline-block;  
+}
+#navUL li:hover{
+    background-color: burlywood;
+}
+#navUL li a{
+    color: white;
+    text-decoration: none;
+}
+/* #navUL >li{
+    display: inline-block;
+} */
+
+/* nav dropdown */
+#dropdownContent{
+    display: none;
+    position: absolute;
+    left: 12px;
+    top: 46px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+#dropdownContent li{
+    display: block;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+}
+#navUL li:hover #dropdownContent{
+    display: block;
+}
+
+
+/* Image div */
+
+#imgDiv{
+    border: 1px solid black;
+    height: 250px;
+    width: 500px;
+    margin-top: 33px;
+    margin-left: 385px;
+    border: hidden;
+}
+#nextPrevDiv{
+    border: 1px solid black;
+    width: 575px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 347px;
+    border: hidden;
+}
+#prev{
+    padding: 5px 23px
+}
+#next{
+    float: right;
+    padding: 5px 34px
+}
+
+/* Product, shipping, review div */
+
+#pscDiv{
+    border: 1px solid black;
+    width: 280px;
+    height: 240px;
+    margin-left: 498px;
+    margin-top: 20px;
+    border: hidden;
+}
+#btnDiv{
+    border: 1px solid black;
+    width: 377px;
+    height: 45px;
+    margin-top: 1px;
+    margin-left: 548px;
+    border: hidden;
+}
+#btnBuy{
+    float: right;
+    padding: 12px 30px;
+    /* margin-top: 150px; */
+}
+
+/* images */
+#moinImg{
+    width:500px;
+    height: 250px
+}
+
+
+/* Collapsible buttons */
+.collapse{
+    padding: 10px 95px;
+    display: none;
+}
+.collapse:before {
+    content: '\02795';      /* Unicode character for "plus" sign (+) */
+    font-size: 10px;
+    color: black;
+}
+.active:before {
+    content: "\2212";   /* Unicode character for "minus" sign (-) */
+    font-weight: 800;
+  }
+.content{
+    padding: 0 20px;
+    display: none;
+    background-color: #f1f1f1;
+}

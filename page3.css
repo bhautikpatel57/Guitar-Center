@@ -1,0 +1,41 @@
+
+#imgDiv3{
+    border: 1px solid black;
+    width: 600px;
+    height: 200px;
+    margin-left: 335px;
+    margin-top: 10px;
+    border: hidden;
+}
+#imagee3{
+    width: 600px;
+    height: 200px; 
+}
+#confirmDiv{
+    border: 1px solid black;
+    width: 605px;
+    height: 350px;
+    margin-left: 340px;
+    margin-top: 30px;
+    border: hidden;
+}
+#goHomeBtn{
+    float: right;
+    margin-right: 240px;
+    width: 130px;
+    height: 50px;
+}
+#personalInfo{
+    border: 1px solid black;
+    width: 310px;
+    height: 250px;
+    float: left;
+    border: hidden;
+}
+#personalInfo1{
+    border: 1px solid black;
+    width: 281px;
+    height: 250px;
+    float: left;
+    border: hidden;
+}
